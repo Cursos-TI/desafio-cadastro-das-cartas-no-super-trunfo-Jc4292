@@ -12,6 +12,7 @@ int main()
 	float c1_area;
 	float c1_pib;
 	int c1_pontos_turisticos;
+	float c1_densidade;
 
 	char c2_estado;
 	char c2_codigo[5];
@@ -20,6 +21,7 @@ int main()
 	float c2_area;
 	float c2_pib;
 	int c2_pontos_turisticos;
+	float c2_densidade;
 
 	//---Criação de cartas---
 
