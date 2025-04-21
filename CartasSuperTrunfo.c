@@ -42,7 +42,7 @@ int main()
 	printf("digite o tamanho da população\n");
 	scanf(" %d", &c1_populacao);
 
-	printf("digite o tamanho do pib\n");
+	printf("digite o tamanho do pib (em bilhões)\n");
 	scanf(" %f", &c1_pib);
 
 	printf("digite a área (kilometros quadrados)\n");
@@ -66,7 +66,7 @@ int main()
 	printf("digite o tamanho da população\n");
 	scanf(" %d", &c2_populacao);
 
-	printf("digite o tamanho do pib\n");
+	printf("digite o tamanho do pib (em bilhões)\n");
 	scanf(" %f", &c2_pib);
 
 	printf("digite a área (kilometros quadrados)\n");
@@ -78,10 +78,10 @@ int main()
 	//--------Calculo---------
 
 	c1_densidade = (float) c1_populacao / c1_area;
-	c1_pibpc = (float) c1_populacao / c1_pib;
+	c1_pibpc = (float) c1_pib / c1_populacao;
 
 	c2_densidade = (float) c2_populacao / c2_area;
-	c2_pibpc = (float) c2_populacao / c2_pib;
+	c2_pibpc = (float) c2_pib / c2_populacao;
 
 	//---Exibição de Cartas---
 
@@ -91,7 +91,7 @@ int main()
 	printf("Nome da cidade: %s\n", c1_nome);
 	printf("População: %d\n", c1_populacao);
 	printf("Área: %f km²\n", c1_area);
-	printf("PIB: %f reais\n", c1_pib);
+	printf("PIB: %f bilhões de reais\n", c1_pib);
 	printf("Número de Pontos Turisticos: %d\n", c1_pontos_turisticos);
 	printf("Densidade: %f hab/km²\n", c1_densidade);
 	printf("Pib Per Capita: %f reais\n\n", c1_pibpc);
