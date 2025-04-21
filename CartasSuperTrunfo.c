@@ -4,6 +4,7 @@
 
 int main()
 {
+	//---variáveis---
 	char c1_estado;
 	char c1_codigo[5];
 	char c1_nome[50];
@@ -20,6 +21,9 @@ int main()
 	float c2_pib;
 	int c2_pontos_turisticos;
 
+	//---Criação de cartas---
+
+	//---Carta 1---
 	printf("carta 1:\n");
 
 	printf("digite um estado (primeira letra):\n");
@@ -43,6 +47,7 @@ int main()
 	printf("digite a quantidade de pontos turisticos\n\n");
 	scanf(" %d", &c1_pontos_turisticos);
 
+	//---Carta 2---
 	printf("carta 2:\n\n");
 
 	printf("digite um estado (primeira letra):\n");
@@ -65,6 +70,8 @@ int main()
 
 	printf("digite a quantidade de pontos turisticos\n");
 	scanf(" %d", &c2_pontos_turisticos);
+
+	//---Exibição de Cartas---
 
 	printf("carta 1:\n\n");
 	printf("Estado: %c\n", c1_estado);
