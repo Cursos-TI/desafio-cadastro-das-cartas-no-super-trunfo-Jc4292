@@ -35,13 +35,13 @@ int main()
 	printf("carta 1:\n");
 
 	printf("digite um estado (primeira letra):\n");
-	scanf(" %s", &c1_estado);
+	scanf(" %c", &c1_estado);
 
 	printf("digite o código: (de 01 a 04)\n");
-	scanf( " %s", c1_codigo);
+	scanf( " %s", &c1_codigo);
 
 	printf("digite o nome da cidade:\n");
-	scanf(" %s", c1_nome);
+	scanf(" %s", &c1_nome);
 
 	printf("digite o tamanho da população\n");
 	scanf(" %d", &c1_populacao);
@@ -59,7 +59,7 @@ int main()
 	printf("carta 2:\n\n");
 
 	printf("digite um estado (primeira letra):\n");
-	scanf(" %s", &c2_estado);
+	scanf(" %c", &c2_estado);
 
 	printf("digite o código: (de 01 a 04)\n");
 	scanf( " %s", c2_codigo);
